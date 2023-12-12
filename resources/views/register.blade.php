@@ -7,7 +7,7 @@
 <div class="container d-lg-block p-3 my-auto align-bottom">
   <div class="row justify-content-center " >    
       <div class="col-lg-5 p-5" style="background-color:#9DFFE8">
-          <span class="fs-4 fw-bold">Create Account</span>
+          <span class="fs-4 fw-bold">Create an account</span>
           <div class="row my-2">
               <div class="col-lg-6">
                   <label for="InitialName" class="form-label fw-bold">First Name</label>
@@ -34,8 +34,8 @@
               <label for="confirmPassword" class="form-label fw-bold">Confirm Password</label>
               <input type="confirmPassword" class="form-control" id="confirmPassword" placeholder="*********">
           </div>
-          <a href="{{ url('/') }} "type="button" class="d-flex btn btn-primary justify-content-center">Register</a>
-          <span class="d-lg-flex mt-2">already have an account? <a href="{{ url('/login') }}" class="d-lg-flex link-dark">Login</a></span>
+          <a href="{{ url('/') }} "type="button" class="d-flex btn btn-primary justify-content-center mb-5">Register</a>
+          <span class="d-lg-flex mt-2">Already have an account?  <a href="{{ url('/login') }}" class="d-lg-flex link-dark text-uppercase px-1">Sign In</a></span>
       </div>
       <div class=" col-lg-4 p-5 text-center align-middle bg-white">
         <a href=""><img src={{ asset('/image/Fitur.png') }} width="250" alt="..."></a>
