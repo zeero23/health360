@@ -9,11 +9,11 @@
   </button>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 <ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Home</a>
+  <li class="nav-item {{ Route::currentRouteName() == 'homepage' ? 'active' : '' }}">
+    <a class="nav-link" aria-current="page"  href="{{ route('homepage') }}">Home</a>
   </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <li class="nav-item dropdown {{ Route::currentRouteName() == 'services' ? 'active' : '' }}">
+    <a class="nav-link dropdown-toggle" href="{{ route('services') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
       Services
     </a>
     <ul class="dropdown-menu">
@@ -31,3 +31,10 @@
 </div>
 </div>
 </nav>
+
+<style>
+  .nav-item.active a {
+      font-weight: bold;
+      color: #51CCC1; /* Change color as needed */
+    }
+</style>

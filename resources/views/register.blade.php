@@ -1,4 +1,5 @@
 @extends('components.layout')
+@section('title', 'Register - Health360')
 @section('content')
 <head>
   <link rel="stylesheet" href="{{ asset('css/home.css') }}">
