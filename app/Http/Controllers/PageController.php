@@ -24,4 +24,15 @@ class PageController extends Controller
         return view('services');
     }
 
+    public function servicesDoctor()
+    {
+        return view('services-doctor');
+    }
+
+    public function servicesAppointment()
+    {
+        return view('services-appointment');
+    }
+
+
 }
