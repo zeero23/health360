@@ -65,21 +65,31 @@
 </div>
 
   <form>
+    <div class="row mb-3">
+      <div class="col">
+        <label for="contactFirstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+      </div>
+      <div class="col">
+        <label for="contactLastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+      </div>
+    </div>
     <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <label for="contactEmail" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp">
       <div id="emailHelp" class="form-text"></div>
     </div>
     <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
+      <label for="contactPhoneNumber" class="form-label">Phone Number</label>
+      <input type="password" class="form-control" id="contactPhoneNumber">
     </div>
     <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <label for="contactMessage" class="form-label">Message</label>
+      <textarea class="form-control" id="contactMessage" rows="3"></textarea>
     </div>
     
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Send</button>
   </form>
   
 </div>
@@ -97,5 +107,5 @@
 </style>
 
 
-
+@include('components.footer')
 @endsection

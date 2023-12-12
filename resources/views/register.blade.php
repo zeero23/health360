@@ -22,18 +22,21 @@
           <div class="mb-lg-3">
               <label for="phoneNumber" class="form-label fw-bold">Phone Number</label>
               <input type="phone" class="form-control" id="phoneNumber" aria-describedby="phoneHelp" placeholder="+62xx">
+              <div id="phoneHelp" class="form-text">Please enter a valid phone number!</div>
           </div>
           <div class="mb-lg-3">
-              <label for="exampleInputEmail1" class="form-label fw-bold">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="youremail@gmail.com">
+              <label for="emailAddress" class="form-label fw-bold">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="name@gmail.com">
           </div>
           <div class="mb-lg-3">
-              <label for="exampleInputPassword1" class="form-label fw-bold">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="*********">
+              <label for="password" class="form-label fw-bold">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="*********">
+              <div id="phoneHelp" class="form-text">Password must be at least 8 characters long</div>
           </div>
           <div class="mb-lg-3 mb-3">
               <label for="confirmPassword" class="form-label fw-bold">Confirm Password</label>
               <input type="confirmPassword" class="form-control" id="confirmPassword" placeholder="*********">
+              <div id="phoneHelp" class="form-text">Please re-enter your password to confirm.</div>
           </div>
           <a href="{{ url('/') }} "type="button" class="d-flex btn btn-primary justify-content-center mb-5">Register</a>
           <span class="d-lg-flex mt-2">Already have an account?  <a href="{{ url('/login') }}" class="d-lg-flex link-dark text-uppercase px-1">Sign In</a></span>

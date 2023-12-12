@@ -14,6 +14,7 @@ use App\Http\Controllers\PageController;
 */
 
 Route::get('/', [PageController::class, 'login'])->name('login');
+Route::get('/login', [PageController::class, 'login'])->name('login');
 Route::get('/register', [PageController::class, 'register'])->name('register');
 Route::get('/homepage', [PageController::class, 'home'])->name('homepage');
 Route::get('/services', [PageController::class, 'services'])->name('services');
