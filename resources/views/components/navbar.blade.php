@@ -12,14 +12,8 @@
   <li class="nav-item {{ Route::currentRouteName() == 'homepage' ? 'active' : '' }}">
     <a class="nav-link" aria-current="page"  href="{{ route('homepage') }}">Home</a>
   </li>
-  <li class="nav-item dropdown {{ Route::currentRouteName() == 'services' ? 'active' : '' }}">
-    <a class="nav-link dropdown-toggle" href="{{ route('services') }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Services
-    </a>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Chat with Doctors</a></li>
-      <li><a class="dropdown-item" href="#">Health Checking Appointment</a></li>
-    </ul>
+  <li class="nav-item {{ Route::currentRouteName() == 'services' ? 'active' : '' }}">
+    <a class="nav-link" aria-current="page"  href="{{ route('services') }}">Services</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Medicine</a>
@@ -35,6 +29,6 @@
 <style>
   .nav-item.active a {
       font-weight: bold;
-      color: #51CCC1; /* Change color as needed */
+      color: #51CCC1; 
     }
 </style>
