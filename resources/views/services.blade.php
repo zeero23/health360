@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-@extends('components.layout')
+@extends('components.app')
 @section('title', 'Services - Health360')
 @section('content')
 <head>
@@ -71,7 +70,6 @@
 
 
 
-=======
 @extends('components.app')
 @section('title', 'Services - Health360')
 @section('content')
@@ -84,7 +82,6 @@
 
 
 @include('components.footer')
->>>>>>> 8abab605cd2e814a8cac3d7f83621117e0f5ffc3
 >Click Here</a>
       </div>
     </div>
