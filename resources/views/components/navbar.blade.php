@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="{{ route('homepage') }}">
       <img src="image/Fitur.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
       Health360
     </a>

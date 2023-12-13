@@ -6,7 +6,7 @@
 </head>
 
 <div class="card text-bg-dark">
-  <img src="image/back1.jpg" class="card-img" style="object-fit: cover; height: 300px;"" alt="#">
+  <img src="image/back1.jpg" class="card-img" style="object-fit: cover; height: 300px;" alt="#">
   <div class="card-img-overlay mt-5 text-black">
     <h2 class="card-title">Welcome to Health360 - Your</h2>
     <h2 class="card-title">Comprehensive Health Hub</h2>
