@@ -19,7 +19,7 @@
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="*********">
           </div>
           {{-- <div class="fs-6 fw-light text-end pb-3 mb-4"><a href="#">Forget Password</a></div> --}}
-          <a href="{{ url('/') }} "type="button" class="d-flex btn btn-primary justify-content-center mb-5">Login</a>
+          <a href="{{ url('/homepage') }} "type="button" class="d-flex btn btn-primary justify-content-center mb-5">Login</a>
           <span class="d-lg-flex mt-2">Doesn't have an account? <a href="{{ url('/register') }}" class="d-lg-flex link-dark px-1">Create an account</a></span>
       </div>
       <div class=" col-lg-4 p-5 text-center align-middle bg-white">
